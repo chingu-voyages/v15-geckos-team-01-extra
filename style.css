@@ -1,3 +1,9 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Avenir;
     font-size: 16px;
@@ -12,6 +18,11 @@ button {
     padding: 10px 20px;
 }
 
+.btn_one {
+    font-size: .8em;
+    margin: 20px auto;
+}
+
 .btn_two {
     font-size: 1.2em;
     padding: 15px 40px;
@@ -21,6 +32,14 @@ button {
     background-color: #CECECE;
     font-size: 1.2em;
     padding: 15px 25px;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h2 {
+    padding: 10px 0 30px 0;
 }
 
 .main {
@@ -33,6 +52,7 @@ button {
 
 nav {
     background-color: #F3F2F2;
+    display: flex;
 }
 
 .temporary {
