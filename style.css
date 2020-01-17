@@ -33,6 +33,11 @@ button {
     padding: 15px 25px;
 }
 
+footer {
+    background-color: #87ECA8;
+    height: 10px;
+}
+
 h1 {
     padding: 10px 0;
     font-weight: normal;
@@ -48,7 +53,7 @@ h2 {
 }
 
 .main_left {
-    padding: 100px 0px 0px 100px;
+    padding: 100px 0px 200px 100px;
 }
 
 .menu_item {
