@@ -3,20 +3,16 @@ body {
     font-size: 16px;
 }
 
-nav {
-    background-color: #F3F2F2;
-}
-
 button {
     background-color: #87ECA8;
+    border-radius: 5px;
     color: #FFFFFF;
     font-size: 1em;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 5px;
 }
 
-.btn_two, .btn_three {
+.btn_two {
     font-size: 1.2em;
     padding: 15px 40px;
 }
@@ -25,4 +21,8 @@ button {
     background-color: #CECECE;
     font-size: 1.2em;
     padding: 15px 25px;
+}
+
+nav {
+    background-color: #F3F2F2;
 }
