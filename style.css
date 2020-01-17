@@ -1,6 +1,6 @@
 * {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,6 @@ button {
 
 .btn_one {
     font-size: .8em;
-    margin: 20px auto;
 }
 
 .btn_two {
@@ -36,10 +35,12 @@ button {
 
 h1 {
     padding: 10px 0;
+    font-weight: normal;
 }
 
 h2 {
     padding: 10px 0 30px 0;
+    font-weight: normal;
 }
 
 .main {
@@ -50,9 +51,22 @@ h2 {
     padding: 100px 0px 0px 100px;
 }
 
+.menu_item {
+    padding: 0 20px;
+}
+
+.menu_items {
+    display: flex;
+    text-align: center;
+    padding: 0 300px;
+}
+
 nav {
     background-color: #F3F2F2;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .temporary {
