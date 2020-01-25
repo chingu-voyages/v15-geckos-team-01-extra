@@ -1,7 +1,7 @@
 body {
     font-family: avenir;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .container {
@@ -37,4 +37,16 @@ body {
 
 .item-navs {
     margin: 0 15px;
+}
+
+.logo-one {
+    color: #3F8939;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo-two {
+    color: #87ECA8;
+    font-weight: bold;
+    font-size: 1.2em;
 }
