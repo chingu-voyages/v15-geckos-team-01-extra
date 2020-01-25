@@ -1,0 +1,40 @@
+body {
+    font-family: avenir;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    justify-content: end;
+}
+
+.custom-btn {
+    background-color: #87ECA8;
+    border-color: #87ECA8;
+}
+
+.custom-btn-two {
+    background-color: #CECECE;
+    border-color: #CECECE;
+}
+
+.btn-outline-success {
+    margin-right: 5px;
+}
+
+.btn-outline-success:hover {
+    background-color: #87ECA8;
+    border-color: #87ECA8;
+}
+
+.cust {
+    font-weight: bold;
+}
+
+.item-navs {
+    margin: 0 15px;
+}
