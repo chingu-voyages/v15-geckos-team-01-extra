@@ -4,12 +4,21 @@ body {
     font-size: 16px;
 }
 
+.btn-outline-success {
+    margin-right: 5px;
+}
+
+.btn-outline-success:hover {
+    background-color: #87ECA8;
+    border-color: #87ECA8;
+}
+
 .container {
     display: flex;
 }
 
-.image {
-    justify-content: end;
+.cust {
+    font-weight: bold;
 }
 
 .custom-btn {
@@ -22,17 +31,23 @@ body {
     border-color: #CECECE;
 }
 
-.btn-outline-success {
-    margin-right: 5px;
+.first {
+    margin: 90px 0 0 0;
 }
 
-.btn-outline-success:hover {
-    background-color: #87ECA8;
-    border-color: #87ECA8;
+h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
 }
 
-.cust {
-    font-weight: bold;
+h4 {
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.image {
+    margin: 40px 0 0 0;
+    width: 500px;
 }
 
 .item-navs {
