@@ -1,11 +1,31 @@
-﻿/* Hamburger and mobile css additions */
+/* Hamburger and mobile css additions */
 
-/* mobile
+/* MOBILE
+* mobile changes should be set at the bottom of the css page
+* this allows them to be read last, to override elements above it
 *   Add changes to items for mobile view in here
 */
+
 @media all and (max-width: 799px) and (min-width: 220px) {
+
     nav {
         padding: 0;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #links_list {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .image {
+        width: 100vw;
     }
 }
 
@@ -23,4 +43,5 @@
     border: 1px solid #87ECA8;
 }
 /*  --   end hamburger -- */
+
 
