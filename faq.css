@@ -1,7 +1,12 @@
 .faq {
-    padding-top: 25px;
+    padding: 25px 100px 100px 100px;
 }
 
-#faq-question {
-    /* font-size: 60rem; */
+h1 {
+    text-align: center;
+}
+
+h5 {
+    color: #3F8939;
+    padding: 25px 0 10px 0;
 }
