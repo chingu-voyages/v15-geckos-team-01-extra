@@ -29,12 +29,13 @@
     }
 }
 
+
 /*  HAMBURGER */
 
 .hamburger {
+    display: none;
     width: 5ch;
     padding: 10px;
-    display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: row;
@@ -43,5 +44,7 @@
     border: 1px solid #87ECA8;
 }
 /*  --   end hamburger -- */
+
+
 
 
